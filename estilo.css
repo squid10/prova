@@ -1,0 +1,78 @@
+CSS
+/* Normalize */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+
+header {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Conteúdo principal */
+
+main {
+  margin-top: 50px;
+}
+
+section {
+  padding: 30px 0;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Rodapé */
+
+footer {
+  background-color: #ccc;
+  padding: 10px;
+}
